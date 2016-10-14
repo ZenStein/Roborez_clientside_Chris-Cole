@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<md-sidenav-layout >
+
+    <md-sidenav #sidenav mode="side" class="app-sidenav">
+        Menu
+        <nav>
+            <a routerLink="/" routerLinkActive="active">Home</a><br>
+            <a routerLink="/sms_messaging" routerLinkActive="active">SMS</a>
+        </nav>
+    </md-sidenav>
+
+    <md-toolbar color="primary">
+        <button class="app-icon-button" (click)="sidenav.toggle()">
+            <i class="material-icons app-toolbar-menu">menu</i>
+        </button>
+        
+        &nbsp;&nbsp;Cabins4LessApp
+
+        <span class="app-toolbar-filler"></span>
+    </md-toolbar>
+</md-sidenav-layout>
+
+    <!-- Router Outlet -->
+        <router-outlet></router-outlet>
