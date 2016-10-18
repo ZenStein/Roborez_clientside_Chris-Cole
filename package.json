@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^2.1.0",
     "@angular/router": "^3.1.0",
     "@types/jasmine": "^2.5.35",
+    "angular-cli": "^1.0.0-beta.2-mobile.4",
     "angular2-material-datepicker": "^0.4.0",
     "core-js": "^2.4.1",
     "rxjs": "5.0.0-beta.12",
@@ -29,7 +30,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^2.2.30",
-    "angular-cli": "^1.0.0-beta.16",
+    "angular-cli": "^1.0.0-beta.17",
     "codelyzer": "1.0.0-beta.16",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.7.0",
