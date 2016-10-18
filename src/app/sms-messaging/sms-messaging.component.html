@@ -1,0 +1,18 @@
+<h1>SMS</h1>
+
+<div id="main">
+    <div style="background-color:coral;">
+        <form>
+            Numbers:  <input type="text" id="numbers" name="numbers"
+                        [(ngModel)]="model.numbers" (input)="onInputChange($event)"><br>
+            Message: <input type="text" id="message" name="message"
+                        [(ngModel)]="model.message"><br>
+            <button (click)="blastMessages(model)">blaster</button>
+        </form>
+    </div>
+    <div style="background-color:lightblue;">
+        <md-grid-list cols="1" rowHeight="40px" [style.background]="'lightblue'">
+            <md-grid-tile  *ngFor="let number of numbers">{{number}}</md-grid-tile>
+        </md-grid-list>
+    </div>
+</div>
