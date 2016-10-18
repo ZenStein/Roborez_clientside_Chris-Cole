@@ -23,12 +23,9 @@ import { DatepickerModule } from 'angular2-material-datepicker'
     BrowserModule,
     FormsModule,
     HttpModule,
-<<<<<<< HEAD
     routing,
     MaterialModule.forRoot()
-=======
     DatepickerModule
->>>>>>> date-picker
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]
