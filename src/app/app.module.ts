@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { LayoutSidenavComponent } from './layout-sidenav/layout-sidenav.component';
 import { SmsMessagingComponent } from './sms-messaging/sms-messaging.component';
 import { HomeComponent } from './home/home.component';
+/* not generated from CLI  */
+import { DatepickerModule } from 'angular2-material-datepicker'
 
 @NgModule({
   declarations: [
@@ -21,8 +23,12 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+<<<<<<< HEAD
     routing,
     MaterialModule.forRoot()
+=======
+    DatepickerModule
+>>>>>>> date-picker
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]
